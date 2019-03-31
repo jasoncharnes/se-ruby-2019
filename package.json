@@ -12,9 +12,9 @@
     "postcss": "^6.0.19",
     "postcss-loader": "^2.1.1",
     "style-loader": "^0.20.3",
-    "tailwindcss": ">=0.6.5",
+    "tailwindcss": ">=0.7.4",
     "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2",
+    "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.1.1"
   }
 }

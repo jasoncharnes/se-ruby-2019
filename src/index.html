@@ -1,13 +1,173 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Tailwind Starter Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Southeast Ruby 2019</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   </head>
-  <body>
-    <div class="min-h-screen flex items-center justify-center">
-      <h1 class="text-5xl text-purple font-sans">Greetings.</h1>
+  <body class="bg-grey-lightest">
+    <div class="bg-red-light h-2"></div>
+    <div class="flex flex-col md:flex-row justify-center items-center px-2 py-4 md:p-8 m-2 md:m-8">
+      <img src="src/crest.svg" class="w-24 md:w-32" alt="Southeast Ruby Crest" />
+      <div class="ml-0 md:ml-6 text-center md:text-left mt-4 md:mt-0">
+        <h1 class="mb-2">Southeast Ruby 2019</h1>
+        <h3 class="font-normal">
+          <a href="#schedule" class="no-underline font-semibold text-red-light hover:text-red hover:underline">August 1-2</a> at <a href="#location" class="no-underline font-semibold text-red-light hover:text-red hover:underline">Hotel Indigo</a> in Nashville, TN
+        </h3>
+      </div>
+    </div>
+    <div class="bg-cover bg-center p-8 text-center" style="background-image: url(src/nashville-bw.jpg);">
+      <div class="p-8 text-3xl tracking-normal">
+        <img src="src/ruby.svg" class="w-32" alt="Ruby">
+        <p class="text-white mt-4 leading-normal">Celebrating <span class="font-semibold">Ruby</span> in the south(east).</p>
+      </div>
+    </div>
+    <div class="container mx-auto text-center px-2 py-4 md:p-8 m-2 md:my-8">
+      <h1>Keynote Speakers</h1>
+      <div class="flex flex-col md:flex-row justify-center md:mt-6">
+        <div class="mt-4 md:mt-8 md:my-4 md:w-1/2">
+          <img src="src/speakers/jessica.jpg" class="w-64 rounded-full p-4" alt="Jessica Kerr">
+          <h2 class="text-red-light">Jessica Kerr</h2>
+          <p class="leading-normal p-4">Jessica Kerr is a developer of development automation at Atomist. Her mission is to find and share new ways to think about code, people, and symmathesies of code-and-people.</p>
+        </div>
+        <div class="mt-4 md:mt-8 md:mx-4 md:w-1/2">
+          <img src="src/speakers/avdi.jpg" class="w-64 rounded-full p-4" alt="Avdi Grimm">
+          <h2 class="text-red-light">Avdi Grimm</h2>
+          <p class="leading-normal p-4">Avdi Grimm is a father, a Ruby Hero, the head chef at RubyTapas.com, and author of the books Confident Ruby and Exceptional Ruby.</p>
+        </div>
+      </div>
+    </div>
+    <div class="px-6 py-4 md:p-8 bg-red-light text-white text-center md:text-left">
+      <div class="py-4 md:py-8 container mx-auto flex flex-col md:flex-row items-center">
+        <img src="src/workshop.svg" class="w-64 max-w-full mb-8 md:mb-0 md:mr-8 md:w-2/5" alt="">
+        <div class="mt-4 md:mt-0 md:ml-8 md:w-3/5">
+          <h1 class="mb-4">Introducing Workshops!</h1>
+          <p class="md:text-lg leading-normal">
+            Thursday, August 1, we kick off the conference with four different workshops for you to choose from. You'll have the choice between one of the two workshops in the morning and one of the two workshops in the afternoon.
+          </p>
+          <p class="md:text-lg leading-normal mt-4">Workshops are available as a conference ticket add-on for an additional <strong>$80</strong>.</p>
+        </div>
+      </div>
+    </div>
+    <div id="schedule" class="container mx-auto text-center px-2 py-4 md:p-8 m-2 md:my-8">
+      <h1>Schedule</h1>
+      <div class="flex justify-around text-center flex-col md:flex-row mt-8">
+        <div class="md:w-1/2 md:border-r-2 mb-4">
+          <h2>Thursday</h2>
+          <h3 class="text-red-light uppercase mt-2">Workshop Day</h3>
+          <hr class="border-t-2 mt-4">
+          <div class="py-2 px-6">
+            <p class="leading-normal">We're still accepting proposals for workshops. The <strong>workshop</strong> CFP is open until <span class="text-red-light font-semibold whitespace-no-wrap">April 15, 2019</span>.</p>
+            <p class="mt-6 leading-normal">Speaking of CFP: do you have a workshop idea you'd like to present?</p>
+            <div class="mt-8">
+              <a href="https://www.papercall.io/southeast-ruby-2019" class="bg-red-light hover:bg-red text-white py-2 px-6 no-underline rounded" target="_blank">Submit a Workshop</a>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-1/2 mb-4 mt-8 md:mt-0">
+          <h2>Friday</h2>
+          <h3 class="text-red-light uppercase mt-2">Conference Day</h3>
+          <hr class="border-t-2 mt-4">
+          <div class="py-2 px-6">
+            <p class="leading-normal">We're still accepting proposals for conference talks. The <strong>conference</strong> CFP is open until <span class="text-red-light font-semibold whitespace-no-wrap">June 1, 2019</span>.</p>
+            <p class="mt-6 leading-normal">Speaking of CFP: do you have a talk idea you'd like to present?</p>
+            <div class="mt-8">
+              <a href="https://www.papercall.io/southeast-ruby-2019" class="bg-red-light hover:bg-red text-white py-2 px-6 no-underline rounded" target="_blank">Submit a Talk</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="location" class="px-6 py-4 md:p-8 bg-red-light text-white text-center md:text-left">
+      <div class="py-4 md:py-8 container mx-auto flex flex-col md:flex-row items-center">
+        <div class="md:mr-8 md:w-3/5">
+          <h1 class="mb-4">Location</h1>
+          <p class="md:text-lg leading-normal">
+            We'll be in downtown Nashville at <strong>Hotel Indigo</strong>. Hotel Indigo is located alongside the history Printers Alley. Looking for more? Hotel Indigo is only blocks away from Broadway, home to several honky tonks.
+          </p>
+          <p class="md:text-lg leading-normal mt-4">Southeast Ruby attendees have access to a discounted room rate of <strong>$259</strong> per night.</p>
+          <div class="flex flex-col md:flex-row mt-8">
+            <a class="bg-white hover:bg-grey-lightest text-red-light md:text-lg font-semibold px-6 py-4 rounded no-underline" target="_blank" href="https://www.hotelindigo.com/redirect?path=asearch&brandCode=IN&localeCode=en&regionCode=1&hotelCode=BNAUS&checkInDate=31&checkInMonthYear=062019&checkOutDate=03&checkOutMonthYear=072019&rateCode=6CBARC&_PMID=99801505&GPC=SER&viewfullsite=true">Book a Room</a>
+            <a class="bg-white hover:bg-grey-lightest text-red-light md:text-lg font-semibold px-6 py-4 rounded no-underline mt-6 md:mt-0 md:ml-4" target="_blank" href="https://www.google.com/maps/place/Hotel+Indigo+Nashville/@36.165236,-86.7809727,17z/data=!3m1!4b1!4m5!3m4!1s0x88646659d472c573:0x5a91280eb3fe720a!8m2!3d36.165236!4d-86.778784">Get Directions</a>
+          </div>
+        </div>
+        <img src="src/hotel-indigo.jpg" class="md:w-2/5 max-w-full md:ml-8 rounded mt-6 md:mt-0" alt="">
+      </div>
+    </div>
+    <div class="container mx-auto text-center px-2 py-4 md:p-8 m-2 md:my-8">
+      <h1>Tickets</h1>
+      <p class="mt-4 leading-normal">Tickets go on sale soon!</p>
+      <p class="mt-4 leading-normal">The conference day is <span class="font-semibold text-red-light">$199</span>. If you'd like to also attend the workshop day, the total price is <span class="font-semibold text-red-light">$279</span>.</p>
+    </div>
+    <div class="px-6 py-4 md:p-8 bg-red-light text-white text-center md:text-left">
+      <div class="py-4 md:py-8 container mx-auto flex flex-col md:flex-row items-center">
+        <img src="src/sponsorship.svg" class="w-64 max-w-full mb-8 md:mb-0 md:mr-8 md:w-2/5" alt="">
+        <div class="mb-6 md:mb-0 md:ml-8 md:w-3/5">
+          <h1 class="mb-4">Sponsorship</h1>
+          <p class="md:text-lg leading-normal">
+            Sponsors are the <a class="text-white font-semibold" href="https://getyarn.io/yarn-clip/ba21e9ef-67c5-4842-8a2f-53f6ae99c82d" target="_blank">lifeblood</a> of Southeast Ruby.
+          </p>
+          <p class="md:text-lg leading-normal mt-4">Are you interesting in partnering with Southeast Ruby as a sponsor? We've had sponsors partner with us to gain exposure to their product, meet potential hires, and simply support the Ruby community.</p>
+          <p class="md:text-lg leading-normal mt-4">We'd love to work together. <a class="text-white font-semibold" href="mailto:ernie@southeastruby.com?subject=Southeast Ruby 2019 Sponsorship">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto text-center px-2 py-4 md:p-8 m-2 md:my-8">
+      <h1>Organizers</h1>
+      <div class="flex flex-col md:flex-row items-center justify-around mt-8">
+        <div class="flex flex-col mb-8 md:mb-0">
+          <a target="_blank" href="https://twitter.com/jmcharnes">
+            <img src="src/organizers/jason.jpg" class="w-32 max-w-full rounded-full" alt="Jason Charnes">
+          </a>
+          <p class="mt-4 text-xl">
+            <a class="text-red-light font-semibold no-underline hover:underline" target="_blank" href="https://twitter.com/jmcharnes">Jason Charnes</a>
+          </p>
+        </div>
+        <div class="flex flex-col mb-8 md:mb-0">
+          <a target="_blank" href="https://twitter.com/sdcharnes">
+            <img src="src/organizers/shannon.jpg" class="w-32 max-w-full rounded-full" alt="Shannon Charnes">
+          </a>
+          <p class="mt-4 text-xl">
+              <a class="text-red-light font-semibold no-underline hover:underline" target="_blank" href="https://twitter.com/sdcharnes">Shannon Charnes</a>
+            </p>
+        </div>
+        <div class="flex flex-col mb-8 md:mb-0">
+          <a target="_blank" href="https://twitter.com/erniemiller">
+            <img src="src/organizers/ernie.jpg" class="w-32 max-w-full rounded-full" alt="Ernie Miller">
+          </a>
+          <p class="mt-4 text-xl">
+              <a class="text-red-light font-semibold no-underline hover:underline" target="_blank" href="https://twitter.com/erniemiller">Ernie Miller</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto text-center p-4 m-4">
+      <!-- Begin Mailchimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="https://southeastruby.us1.list-manage.com/subscribe/post?u=2e7a5bd39f01d6debeb8379c7&amp;id=67ee352c3c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <h1>Stay in touch</h1>
+            <p class="mt-6 leading-normal">We'll only send you information relevant to Southeast Ruby, nothing else.</p>
+            <div class="mc-field-group mt-4">
+              <input type="email" placeholder="Email address" value="" name="EMAIL" class="required email w-64 px-4 py-2 rounded border-2 border-red-light" id="mce-EMAIL">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2e7a5bd39f01d6debeb8379c7_67ee352c3c" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button mt-4 bg-red-light text-white rounded px-8 py-2 text-xl cursor-pointer"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container mx-auto text-center p-8 m-8">
+      <h1>Code of Conduct</h1>
+      <p class="mt-4 leading-normal">We want Southeast Ruby to be a safe space for <strong>everyone</strong>. All attendees, speakers, sponsors and volunteers at the conference and conference-related events are required to abide by the <a class="font-semibold no-underline text-red-light hover:underline" target="_blank" href="http://confcodeofconduct.com/">code of conduct</a>.</p>
+    </div>
+    <div class="container mx-auto text-center p-4 m-4">
+      <span class="font-light">&copy; 2017-2019 Southeast Ruby, LLC</span>
     </div>
   </body>
 </html>
