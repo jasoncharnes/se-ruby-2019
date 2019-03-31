@@ -6,6 +6,10 @@
   max-width: 900px;
 }
 
+#cover {
+  background-image: url("./nashville-bw.jpg");
+}
+
 @media (max-width: 768px) {
   h1 {
     @apply text-2xl;
