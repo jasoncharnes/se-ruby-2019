@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.1",
-    "css-loader": "^0.28.10",
+    "css-loader": "^2.1.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^3.0.1",
     "html-loader": "^0.5.5",
