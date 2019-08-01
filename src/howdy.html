@@ -20,11 +20,14 @@
     </meta>
   </head>
 
-  <body class="p-6 m-6">
+  <body class="p-3 m-3">
     <h1 class="mb-6">Welcome to Southeast Ruby!</h1>
     <div class="mb-8">
       <div class="mb-2">
         <a href="#location">Location</a>
+      </div>
+      <div class="mb-2">
+        <a href="#parking">Parking</a>
       </div>
       <div class="mb-2">
         <a href="#schedule">Schedule</a>
@@ -46,8 +49,12 @@
         <p class="mb-4">301 Union St N, Nashville, TN 37201</p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.05418781412!2d-86.78097268472786!3d36.16523598008426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88646659d472c573%3A0x5a91280eb3fe720a!2sHotel+Indigo+Nashville!5e0!3m2!1sen!2sus!4v1564414107932!5m2!1sen!2sus"
-          width="600" height="450" class="border-2" frameborder="0" allowfullscreen></iframe>
+          width="300" height="300" class="border-2" frameborder="0" allowfullscreen></iframe>
       </div>
+    </div>
+    <div id="parking" class="mb-8">
+      <h2>Parking</h2>
+      <p class="mt-6">Valet parking is located in front of the hotel on Union Street and is currently $38/night. Self-parking is available at an adjacent garage that is not owned by the Hotel and will vary from $25-50/day.</p>
     </div>
     <div id="schedule" class="mb-8">
       <h2>Schedule</h2>
@@ -75,7 +82,16 @@
                 workshop</li>
             </ul>
           </li>
-          <li class="p-2">Dockerizing Rails - A supercharged development process</li>
+          <li class="p-2">Dockerizing Rails - A supercharged development process
+            <ul class="mt-2">
+              <li class="p-2">During the Dockerizing Rails' workshop, we will download several GB of data. This might be tricky with
+                the WiFi on site. The good news is, you can pre-download all the prerequisites!</li>
+              <li class="p-2">Please head to <a href="https://github.com/jfahrer/dockerizing_rails">https://github.com/jfahrer/dockerizing_rails</a> and follow the `Preparing for the
+                workshop` section. You will install Docker, test the setup and also download some "images" that we will
+                use during the workshop. Following the instructions should reduce the data requirements to just a couple
+                MB and speed everything up a lot.</li>
+            </ul>
+          </li>
         </ul>
       </div>
       <div class="mt-6">
